@@ -11,6 +11,9 @@
 # production
 /build
 
+# Notes
+/notes.latex
+
 # misc
 .DS_Store
 .env.local
