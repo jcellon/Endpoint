@@ -1,0 +1,29 @@
+$ git clone <Repo URL>
+$ npm install 
+$ npm start
+
+****Error with SSL*****
+$ npm audit fix --force
+
+$ npm start
+
+****Firebase*****
+$ firebase login
+
+$ firebase init hosting
+
+Public directory: build
+Rewrite all urls to /index.html? Y
+Github? N
+
+$ npm run build
+
+$ firebase deploy --only hosting
+
+****Github*****
+
+$ git pull
+
+$ git add .
+$ git commit -am "Your notes"
+$ git push origin main
